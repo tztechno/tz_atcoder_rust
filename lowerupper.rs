@@ -1,6 +1,41 @@
-ABC192_B lowerupper
+//ABC192_B lowerupper
 
 ########################################################################
+use proconio::{input, marker::Chars};
+
+fn main(){
+    input!{
+        s: Chars,
+    }
+    for i in 0..s.len() {
+        if (i%2 == 0) ^ s[i].is_lowercase() {
+            println!("No");
+            return;
+        }
+    }
+    println!("Yes");
+}
+
+########################################################################
+
+use proconio::input;
+use proconio::marker::Bytes;
+
+fn main() {
+    input! {
+        n: Bytes,
+    }
+    for i in 0..n.len() {
+        if i % 2 == 0 && n[i].is_ascii_uppercase() {
+            println!("{}", "No");
+            return;
+        } else if i % 2 == 1 && n[i].is_ascii_lowercase() {
+            println!("{}", "No");
+            return;
+        }
+    }
+    println!("{}", "Yes");
+}
 
 ########################################################################
   
