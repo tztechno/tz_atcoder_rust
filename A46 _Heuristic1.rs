@@ -2,6 +2,41 @@
 #######################################################
 #######################################################
 #######################################################
+#![allow(non_snake_case)]
+#![allow(unused_imports)]
+#![allow(unused_variables)]
+use proconio::{input_interactive,marker::Chars};
+use std::cmp::{max, min, Reverse};
+use std::collections::{BTreeMap, BTreeSet, BinaryHeap, HashMap, HashSet, VecDeque};
+use itertools::Itertools;
+fn main() {
+    input_interactive!{
+        n: usize,
+        xy: [(i64, i64); n]
+    }
+
+    let mut visited = vec![false; n];
+    let mut root: Vec<usize> = vec![0];
+    for i in 0..n-1{
+        let mut min_dist = 1000000000000000000;
+        let mut min_idx = 0;
+        for j in 1..n{
+            if !visited[j]{
+                let dist = (xy[*root.last().unwrap()].0 - xy[j].0).pow(2) + (xy[*root.last().unwrap()].1 - xy[j].1).pow(2);
+                if dist < min_dist{
+                    min_dist = dist;
+                    min_idx = j;
+                }
+            }
+        }
+        root.push(min_idx);
+        visited[min_idx] = true;
+    }
+    root.push(0);
+    for i in root{
+        println!("{}", i+1);
+    }
+}
 #######################################################
 use proconio::input;
 use proconio::derive_readable;
