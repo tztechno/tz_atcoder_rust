@@ -4,6 +4,123 @@
 use proconio::input;
 
 fn main() {
+    input!{
+        x: [u64; 5],
+    }
+    for i in 0..5 {
+        if x[i] == 0 {
+            println!("{}", i+1);
+        }
+    }
+}
+
+#####################################
+use proconio::*;
+
+fn main() {
+    input! { a: [u8; 5] }
+    for i in 0..5 {
+        if a[i] == 0 {
+            println!("{}", i + 1);
+        }
+    }
+}
+#####################################
+use proconio::input;
+
+fn main() {
+    input! {
+        x:[i32;5],
+    };
+    let index = x.iter().position(|&x| x == 0).unwrap() + 1;
+    println!("{index}");
+}
+#####################################
+use proconio::input;
+
+fn main(){
+  for i in 0..5 {
+    input!{
+      x:i32
+    }
+    if x == 0 {
+      println! ("{}", i+1);
+      return;
+    }
+  }
+}
+#####################################
+use proconio::input;
+
+fn main() {
+    for i in 1..6 {
+        input! {x:i32,}
+        if x == 0 {
+            println!("{}", i);
+        }
+    }
+}
+#####################################
+use proconio::input;
+
+fn main() {
+    input! {
+        a: i32,
+        b: i32,
+        c: i32,
+        d: i32,
+        e: i32,
+    }
+    
+    let result;
+    result = if a == 0 { 1 } 
+      else if b == 0 { 2 }
+      else if c == 0 { 3 }
+      else if d == 0 { 4 }
+      else { 5 };
+    println!("{}", result);
+}
+#####################################
+use proconio::input;
+
+fn main() {
+  input! {
+    x1: i64,
+    x2: i64,
+    x3: i64,
+    x4: i64,
+    x5: i64
+  }
+  let ans = if x1 == 0 {
+    1
+  } else if x2 == 0 {
+    2
+  } else if x3 == 0 {
+    3
+  } else if x4 == 0 {
+    4
+  } else {
+    5
+  };
+  println!("{}", ans);
+}
+#####################################
+use proconio::input;
+use itertools::Itertools;
+fn main() {
+    input! {n: [usize; 5]}
+    for i in 0..5 {
+        if n[i] == 0 {
+            return println!("{}", i + 1);
+        }
+    }
+}
+
+#####################################
+#####################################
+use proconio::input;
+
+fn main() {
     input! {
         x: [i32; 5]
     }
