@@ -37,43 +37,9 @@ fn main() {
     )
 }
 
-// The following code was expanded by `cargo-equip`.
 
-///  # Bundled libraries
-/// 
-///  - `ac-library-rs-parted 0.1.0 (git+https://github.com/qryxip/ac-library-rs-parted#77261929d6551609cf352f4f9e05b34bafd5a8f7)`                                               licensed under `CC0-1.0` as `crate::__cargo_equip::crates::__ac_library_rs_parted_0_1_0`
-///  - `ac-library-rs-parted-convolution 0.1.0 (git+https://github.com/qryxip/ac-library-rs-parted#77261929d6551609cf352f4f9e05b34bafd5a8f7)`                                   licensed under `CC0-1.0` as `crate::__cargo_equip::crates::__ac_library_rs_parted_convolution_0_1_0`
-///  - `ac-library-rs-parted-dsu 0.1.0 (git+https://github.com/qryxip/ac-library-rs-parted#77261929d6551609cf352f4f9e05b34bafd5a8f7)`                                           licensed under `CC0-1.0` as `crate::__cargo_equip::crates::acl_dsu`
-///  - `ac-library-rs-parted-fenwicktree 0.1.0 (git+https://github.com/qryxip/ac-library-rs-parted#77261929d6551609cf352f4f9e05b34bafd5a8f7)`                                   licensed under `CC0-1.0` as `crate::__cargo_equip::crates::__ac_library_rs_parted_fenwicktree_0_1_0`
-///  - `ac-library-rs-parted-internal-bit 0.1.0 (git+https://github.com/qryxip/ac-library-rs-parted#77261929d6551609cf352f4f9e05b34bafd5a8f7)`                                  licensed under `CC0-1.0` as `crate::__cargo_equip::crates::__ac_library_rs_parted_internal_bit_0_1_0`
-///  - `ac-library-rs-parted-internal-math 0.1.0 (git+https://github.com/qryxip/ac-library-rs-parted#77261929d6551609cf352f4f9e05b34bafd5a8f7)`                                 licensed under `CC0-1.0` as `crate::__cargo_equip::crates::__ac_library_rs_parted_internal_math_0_1_0`
-///  - `ac-library-rs-parted-internal-queue 0.1.0 (git+https://github.com/qryxip/ac-library-rs-parted#77261929d6551609cf352f4f9e05b34bafd5a8f7)`                                licensed under `CC0-1.0` as `crate::__cargo_equip::crates::__ac_library_rs_parted_internal_queue_0_1_0`
-///  - `ac-library-rs-parted-internal-scc 0.1.0 (git+https://github.com/qryxip/ac-library-rs-parted#77261929d6551609cf352f4f9e05b34bafd5a8f7)`                                  licensed under `CC0-1.0` as `crate::__cargo_equip::crates::__ac_library_rs_parted_internal_scc_0_1_0`
-///  - `ac-library-rs-parted-internal-type-traits 0.1.0 (git+https://github.com/qryxip/ac-library-rs-parted#77261929d6551609cf352f4f9e05b34bafd5a8f7)`                          licensed under `CC0-1.0` as `crate::__cargo_equip::crates::__ac_library_rs_parted_internal_type_traits_0_1_0`
-///  - `ac-library-rs-parted-lazysegtree 0.1.0 (git+https://github.com/qryxip/ac-library-rs-parted#77261929d6551609cf352f4f9e05b34bafd5a8f7)`                                   licensed under `CC0-1.0` as `crate::__cargo_equip::crates::__ac_library_rs_parted_lazysegtree_0_1_0`
-///  - `ac-library-rs-parted-math 0.1.0 (git+https://github.com/qryxip/ac-library-rs-parted#77261929d6551609cf352f4f9e05b34bafd5a8f7)`                                          licensed under `CC0-1.0` as `crate::__cargo_equip::crates::__ac_library_rs_parted_math_0_1_0`
-///  - `ac-library-rs-parted-maxflow 0.1.0 (git+https://github.com/qryxip/ac-library-rs-parted#77261929d6551609cf352f4f9e05b34bafd5a8f7)`                                       licensed under `CC0-1.0` as `crate::__cargo_equip::crates::__ac_library_rs_parted_maxflow_0_1_0`
-///  - `ac-library-rs-parted-mincostflow 0.1.0 (git+https://github.com/qryxip/ac-library-rs-parted#77261929d6551609cf352f4f9e05b34bafd5a8f7)`                                   licensed under `CC0-1.0` as `crate::__cargo_equip::crates::__ac_library_rs_parted_mincostflow_0_1_0`
-///  - `ac-library-rs-parted-modint 0.1.0 (git+https://github.com/qryxip/ac-library-rs-parted#77261929d6551609cf352f4f9e05b34bafd5a8f7)`                                        licensed under `CC0-1.0` as `crate::__cargo_equip::crates::acl_modint`
-///  - `ac-library-rs-parted-scc 0.1.0 (git+https://github.com/qryxip/ac-library-rs-parted#77261929d6551609cf352f4f9e05b34bafd5a8f7)`                                           licensed under `CC0-1.0` as `crate::__cargo_equip::crates::__ac_library_rs_parted_scc_0_1_0`
-///  - `ac-library-rs-parted-segtree 0.1.0 (git+https://github.com/qryxip/ac-library-rs-parted#77261929d6551609cf352f4f9e05b34bafd5a8f7)`                                       licensed under `CC0-1.0` as `crate::__cargo_equip::crates::__ac_library_rs_parted_segtree_0_1_0`
-///  - `ac-library-rs-parted-string 0.1.0 (git+https://github.com/qryxip/ac-library-rs-parted#77261929d6551609cf352f4f9e05b34bafd5a8f7)`                                        licensed under `CC0-1.0` as `crate::__cargo_equip::crates::__ac_library_rs_parted_string_0_1_0`
-///  - `ac-library-rs-parted-twosat 0.1.0 (git+https://github.com/qryxip/ac-library-rs-parted#77261929d6551609cf352f4f9e05b34bafd5a8f7)`                                        licensed under `CC0-1.0` as `crate::__cargo_equip::crates::__ac_library_rs_parted_twosat_0_1_0`
-///  - `my-atcoder-library 0.1.0 (path+██████████████████████████████████████████████████)`                                                            published in **missing** licensed under `MIT`     as `crate::__cargo_equip::crates::my_atcoder_library`
-/// 
-///  # License and Copyright Notices
-/// 
-///  - `my-atcoder-library 0.1.0 (path+██████████████████████████████████████████████████)`
-/// 
-///      ```text
-///      Copyright 2023 nayo0513
-/// 
-///      Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-/// 
-///      The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-/// 
-///      THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-///      ```
+
+
 #[cfg_attr(any(), rustfmt::skip)]
 #[allow(unused)]
 mod __cargo_equip {
