@@ -13,3 +13,9 @@ input!{x: [u64; 5]}
 #[allow(non_snake_case)]
 #[allow(unused_variables)]
 #![allow(unreachable_code)]
+#[allow(trivial_numeric_casts)]
+#[allow(unknown_lints)]
+#[allow(clippy::needless_pass_by_value)]
+#[allow(unreachable_patterns)]
+#[allow(dead_code)]
+
