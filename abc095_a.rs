@@ -8,8 +8,7 @@ let mut count = 0;
 #########################################
 #########################################
 #########################################
-    use proconio::{input, marker::Chars};
-
+use proconio::{input, marker::Chars};
 fn main() {
     input! {
         s: Chars,
