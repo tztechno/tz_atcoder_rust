@@ -17,9 +17,9 @@ pub fn main() {
 use proconio::*;
 fn main()
 {
-	input!{mut a: [i8; 3]}
-	a.sort();
-	println!("{}", if a[0] == a[1] {a[2]} else {a[0]});
+    input!{mut a: [i8; 3]}
+    a.sort();
+    println!("{}", if a[0] == a[1] {a[2]} else {a[0]});
 }
 ###################################
 use proconio::input;
